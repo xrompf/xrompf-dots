@@ -1,19 +1,18 @@
+stty icrnl
+
+# Custom login greeting
+zsh_greeting() {
+    echo "  ▄▄▄ ▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄  ▄▄▄▄▄▄▄   ▄▄▄▄▄▄  ▄▄▄▄▄▄ "
+    echo "  ▓ █░█▀█░▓ ▄▄▄ ▓░▓ ▄▄▄ ▓░▓ ▄▄ ▄ ▀▄░▓ ▄▄▄ ▓░▓ ▄▄▄▒░"
+    echo "  ▒ ▀▄▀ ▓░▒ ▒▄▀ ▒░▒ ▓░▓ ▒░▒ ▓░█░▓ ▓░▒ ▒▄▀ ▒░▒ ▒▄▄░░"
+    echo "  ▄▀ ▄ ▀▄░░ ▄▄ ▀▄░░ ▒░▒ ░░░ ▒░░░▒ ▒░░ ▄▄▄▄░░░ ▄▄░░░"
+    echo "  █ ░░█ ░░█ ░░▓░▓░█ ░▄░ █░█ ░░░░░ ░░█ █░░░░░█ █░░░░"
+    echo "  █▄█░█▄█░▀▄█░░▄░░▀▄▄▄▄▄▀░█▄█░░░█▄█░▀▄█░░░░░▀▄█░░░░"
+}
+
+# Run greeting only in interactive shells
+[[ $- == *i* ]] && zsh_greeting
 [[ $- == *i* ]] && fastfetch
-if [[ -o interactive && -t 1 ]]; then
-  _prev=""; _same=0
-  for _i in {1..40}; do
-    _cur=$(stty size 2>/dev/null)
-    if [[ $_cur == $_prev ]]; then
-      (( ++_same >= 3 )) && break
-    else
-      _same=0
-    fi
-    _prev=$_cur
-    sleep 0.05
-  done
-  unset _prev _cur _same _i
-  fastfetch
-fi
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -137,4 +136,7 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
+export PATH="/home/xrompf/.pixi/bin:$PATH"
 

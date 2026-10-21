@@ -3,7 +3,7 @@ yea just base caelestia with smoe small changes yes i do use linux-zen 7.2.9 ker
 
 - although it looks easy and simple, debugging, discovering , finding paths etc took me a lot of time than it lookks and i didnt use any ai for any of this so pls apreciate the work 
 
-## Installation Instructions - manual (wizard comming soon)
+## Installation Instructions - manual (automatic wizard comming soon)
 first download the required dependancies
  - Oh my zsh
  - powerlevel10k

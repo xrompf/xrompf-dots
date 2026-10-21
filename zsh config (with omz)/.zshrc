@@ -1,4 +1,3 @@
-stty icrnl
 
 # Custom login greeting
 zsh_greeting() {

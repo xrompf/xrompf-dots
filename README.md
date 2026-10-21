@@ -1,4 +1,4 @@
-![it should look something like this](nice.png)
+![it should look something like this](2026-10-21 19-23-32.mp4)
 
 yea just base caelestia with smoe small changes yes i do use linux-zen 7.2.9 kernel instead of cachyos v3 or base linux like any true sigma would ofc
 

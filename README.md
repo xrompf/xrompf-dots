@@ -5,5 +5,6 @@ yea just base caelestia with smoe small changes yes i do use linux-zen 7.2.9 ker
 
 
 
-## Installation wizard
-not yet, for now you just have to install the dependancies and copy-paste the code yourself
+## Installation tutorial (wizard comming soob)
+copy to ~/.config/caelestia/shell.json (you cant add comments on json so dont copy this
+)

@@ -1,4 +1,4 @@
-<video src="idk.mp4" controls width="100%"></video>
+
 
 
 idk how to embed a video on my readme yet so check out idk.mp4 to see how it looks

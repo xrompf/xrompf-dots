@@ -2,9 +2,9 @@
 {
     "appearance": {
         "transparency": {
-            "base": 0.42,
+            "base": 0.32,
             "enabled": true,
-            "layers": 4
+            "layers": 0.27
         }
     },
     "paths": {

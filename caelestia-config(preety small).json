@@ -1,0 +1,13 @@
+
+{
+    "appearance": {
+        "transparency": {
+            "base": 0.42,
+            "enabled": true,
+            "layers": 4
+        }
+    },
+    "paths": {
+        "sessionGif": "/home/xrompf/Pictures/CaelestiaGifs/.current/session.gif"
+    }
+}

@@ -1,7 +1,9 @@
 idk how to embed a video on my readme yet so check out idk.mp4 to see how it looks
 yea just base caelestia with smoe small changes yes i do use linux-zen 7.2.9 kernel instead of cachyos v3 or base linux like any true sigma would ofc
+<video src="idk.mp4" controls width="100%"></video>
 
-- idk follow me on tiktok @xrompf and give this repo a star if you like it 
+- idk follow me on tiktok @xrompf and give this repo a star if you like it
+- although it looks easy and simple, debugging, discovering , finding paths etc took me a lot of time than it lookks and i didnt use any ai for any of this so pls apreciate the work 
 
 
 

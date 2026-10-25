@@ -20,4 +20,7 @@ first download the required dependancies
 - Replace the code in ~/.p10k.zsh with zsh config (with omz)/.p10k.zsh
 - Replace the code in caelestia-config(preety small).json with ~/.config/caelestia/shell.json  
 
-# PATH TO LIMINE.CONF - /boot/EFI/BOOT/limine.conf  ADD rw quiet spash to enable plymouth
+automatic config for astra-airlock :sudo astra-airlock -k hyprland
+
+
+ PATH TO LIMINE.CONF - /boot/EFI/BOOT/limine.conf  ADD rw quiet spash to enable plymouth

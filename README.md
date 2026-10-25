@@ -1,4 +1,4 @@
-![how it should look](larp.png)
+![how it should look](setup.png)
 
 
 idk how to embed a video on a readme markdown yet so check out idk.mp4 to see how it looks

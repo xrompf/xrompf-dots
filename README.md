@@ -1,6 +1,7 @@
 # xrompf-dots
 
-![Preview](setup.png)
+![Preview-toggle-off](setup.png)
+![Preview-toggle-on](setup2.png)
 yes i use linux-zen kernel like any true sigma would ofc.
 looks easy, but defo took some work, so a feel free to drop a star if your using it!
 ## Features

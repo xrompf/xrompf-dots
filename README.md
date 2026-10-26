@@ -1,21 +1,42 @@
-![how it should look](larp.png)
+# xrompf-dots
 
+![Preview](setup.png)
+yes i use linux-zen kernel like any true sigma would ofc.
+looks easy, but defo took some work, so a feel free to drop a star if your using it!
+## Features
 
-idk how to embed a video on a readme markdown yet so check out idk.mp4 to see how it looks
-yea just base caelestia with smoe small changes yes i do use linux-zen 7.2.9 kernel instead of  base linux like any true sigma would ofc
+- Modded **infinite-desktop-v2** to work on Caelestia 
+- Custom **zsh config** with two themes for the ultimate terminal rice
+- Tweaked some settings, and removed or remapped shortcuts so the plugins work together
 
-- although it looks easy and simple, debugging, discovering , finding paths etc took me a lot of time than it lookks and i didnt use any ai for any of this so pls apreciate the work
-- ive been trying my best to add infinite desktop v2 (because it has toggleable infinte windows with is very cool) but doesnt work
+> **Known issue:** the toggleable infinite windows from infinite-desktop-v2 don't fully work yet.
 
-## Installation Instructions - manual (automatic wizard comming soon)
-first download the required dependancies
- - Oh my zsh
- - powerlevel10k
- - caelestia (preferably hyprland but may work for other window managers too idk)
- - wow thats pretty low i thought theyll be a lot more!
+## Installation (manual, automatic wizard coming soon)
 
- now replace the code with my dotfiles
-- Replace the code in ~/.config/fish/functions/fish_greeting.fish with /fishgreet.fish
-- Replace the code in ~/.zshrc with /zsh config (with omz)/.zshrc
-- Replace the code in ~/.p10k.zsh with zsh config (with omz)/.p10k.zsh
-- Replace the code in caelestia-config(preety small).json with ~/.config/caelestia/shell.json  
+### Dependencies
+- [Oh My Zsh](https://ohmyz.sh/)
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- [Caelestia](https://github.com/caelestia-dots/shell) (Hyprland recommended, other WMs may work)
+- [hyprland-infinitie-desktop-v2 ported to caelestia](https://github.com/xrompf-alt/hyprland-infinitie-desktop-v2.git) ported by me!
+
+### Dotfiles
+
+| Copy this file from the repo | To here |
+|---|---|
+| `fishgreet.fish` | `~/.config/fish/functions/fish_greeting.fish` |
+| `zsh config (with omz)/.zshrc` | `~/.zshrc` |
+| `zsh config (with omz)/.p10k.zsh` | `~/.p10k.zsh` |
+| `caelestia-config (pretty small).json` | `~/.config/caelestia/shell.json` |
+
+Automatic config for astra-airlock (note to self):
+`sudo astra-airlock -k hyprland`
+Limine plymouth config (also note to self)
+Edit `/boot/EFI/BOOT/limine.conf` and add `rw quiet splash` to the kernel command line.
+
+## Credits
+- [infinite-desktop-v2](https://github.com/sarodscommits/hyprland-infinitie-desktop-v2) by sarodcommits
+- [Caelestia](https://github.com/caelestia-dots) by caelestia-dots
+- [Hyprland](https://hyprland.org/)
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) by the ohmyzsh team
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) by romkatv
+- [zsh](https://www.zsh.org/)

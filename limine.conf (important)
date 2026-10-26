@@ -1,0 +1,13 @@
+timeout: 10
+default_entry=2
+
+  
+/Arch Linux (linux-zen)
+    protocol: efi
+    path: boot():/EFI/Linux/arch-linux-zen.efi
+    cmdline: root=PARTUUID=your uuid not mine dumbass zswap.enabled=0 rw quiet splash
+
+/Arch Linux (linux)
+    protocol: efi
+    path: boot():/EFI/Linux/arch-linux.efi
+    cmdline: root=PARTUUID=your uuid not mine dumbass zswap.enabled=0 rw quiet splash

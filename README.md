@@ -39,7 +39,7 @@ Automatic config for astra-airlock:
 Edit `/boot/EFI/BOOT/limine.conf` and add `rw quiet splash` to the kernel command line.
 
 ## Credits
-- infinite-desktop-v2 by sarodcommits
+- [infinite-desktop-v2](https://github.com/sarodscommits/hyprland-infinitie-desktop-v2) by sarodcommits
 - [Caelestia](https://github.com/caelestia-dots) by caelestia-dots
 - [Hyprland](https://hyprland.org/)
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) by the ohmyzsh team

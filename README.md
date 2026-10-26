@@ -1,15 +1,10 @@
 # xrompf-dots
 
 ![Preview](setup.png)
-
-<!-- Replace this line with the uploaded video URL from GitHub -->
-https://github.com/user-attachments/assets/YOUR-VIDEO-ID
-
-Base [Caelestia](https://github.com/caelestia-dots/shell) with some small changes, running the `linux-zen` kernel instead of the stock Linux kernel.
-
+yes i use linux-zen kernel like any true sigma would ofc
 ## Features
 
-- Modded **infinite-desktop-v2** to work on Caelestia (buggy, but it works!)
+- Modded **infinite-desktop-v2** to work on Caelestia (buggy, but works!)
 - Custom **zsh config** with two themes for the ultimate terminal rice
 - Tweaked some settings, and removed or remapped shortcuts so the plugins work together
 
@@ -32,10 +27,9 @@ Base [Caelestia](https://github.com/caelestia-dots/shell) with some small change
 | `zsh config (with omz)/.p10k.zsh` | `~/.p10k.zsh` |
 | `caelestia-config (pretty small).json` | `~/.config/caelestia/shell.json` |
 
-Automatic config for astra-airlock:
+Automatic config for astra-airlock (note to self):
 `sudo astra-airlock -k hyprland`
-
-### Plymouth (Limine)
+Limine plymouth config (also note to self)
 Edit `/boot/EFI/BOOT/limine.conf` and add `rw quiet splash` to the kernel command line.
 
 ## Credits

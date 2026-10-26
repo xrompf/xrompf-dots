@@ -8,8 +8,7 @@ yes i use linux-zen kernel like any true sigma would ofc
 - Custom **zsh config** with two themes for the ultimate terminal rice
 - Tweaked some settings, and removed or remapped shortcuts so the plugins work together
 
-> It looks simple, but debugging and tracking down paths took a lot longer than it seems lol.
-**Known issue:** the toggleable infinite windows from infinite-desktop-v2 don't fully work yet.
+> **Known issue:** the toggleable infinite windows from infinite-desktop-v2 don't fully work yet.
 
 ## Installation (manual, automatic wizard coming soon)
 

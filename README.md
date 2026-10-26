@@ -1,7 +1,8 @@
 # xrompf-dots
 
 ![Preview](setup.png)
-yes i use linux-zen kernel like any true sigma would ofc
+yes i use linux-zen kernel like any true sigma would ofc.
+looks easy, but defo took some work, so a feel free to drop a star if your using it!
 ## Features
 
 - Modded **infinite-desktop-v2** to work on Caelestia (buggy, but works!)

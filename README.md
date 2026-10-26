@@ -3,6 +3,10 @@
 
 idk how to embed a video on a readme markdown yet so check out idk.mp4 to see how it looks
 yea just base caelestia with smoe small changes yes i do use linux-zen 7.2.9 kernel instead of  base linux like any true sigma would ofc
+# Features
+  - ** I modded infinite-desktop-v2 to work on caelestia (buggy but works !) **
+  - ** made custom zsh config paired with wo different themes to make the ultimate terminal rice **
+  - ** changed some minor things and settings, removed useless shortcuts and substituted them to make plugins work together**
 
 - although it looks easy and simple, debugging, discovering , finding paths etc took me a lot of time than it lookks and i didnt use any ai for any of this so pls apreciate the work
 - ive been trying my best to add infinite desktop v2 (because it has toggleable infinte windows with is very cool) but doesnt work
@@ -24,3 +28,10 @@ automatic config for astra-airlock :sudo astra-airlock -k hyprland
 
 
  PATH TO LIMINE.CONF - /boot/EFI/BOOT/limine.conf  ADD rw quiet spash to enable plymouth
+  # Credits
+  infinitie-desktop-v2 by sarodcommits
+  Caelestia-dots by idk
+  hyprland 
+  zsh by idk
+  oh my zsh by idk
+  powerlevel10k by idk

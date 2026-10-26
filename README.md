@@ -5,7 +5,7 @@ yes i use linux-zen kernel like any true sigma would ofc.
 looks easy, but defo took some work, so a feel free to drop a star if your using it!
 ## Features
 
-- Modded **infinite-desktop-v2** to work on Caelestia (buggy, but works!)
+- Modded **infinite-desktop-v2** to work on Caelestia 
 - Custom **zsh config** with two themes for the ultimate terminal rice
 - Tweaked some settings, and removed or remapped shortcuts so the plugins work together
 
@@ -17,6 +17,7 @@ looks easy, but defo took some work, so a feel free to drop a star if your using
 - [Oh My Zsh](https://ohmyz.sh/)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Caelestia](https://github.com/caelestia-dots/shell) (Hyprland recommended, other WMs may work)
+- [hyprland-infinitie-desktop-v2 ported to caelestia](https://github.com/xrompf-alt/hyprland-infinitie-desktop-v2.git) ported by me!
 
 ### Dotfiles
 

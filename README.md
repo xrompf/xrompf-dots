@@ -15,7 +15,7 @@ looks easy, but defo took some work, so a feel free to drop a star if your using
 ## Installation (manual, automatic wizard coming soon)
 
 ### Dependencies
-- [Oh My Zsh](https://ohmyz.sh/)
+- [Oh My Zsh](https://ohmyz.sh/) bash''' dddd '''
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Caelestia](https://github.com/caelestia-dots/shell) (Hyprland recommended, other WMs may work)
 - [hyprland-infinitie-desktop-v2 ported to caelestia](https://github.com/xrompf-alt/hyprland-infinitie-desktop-v2.git) ported by me!

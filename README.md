@@ -15,10 +15,11 @@ looks easy, but defo took some work, so a feel free to drop a star if your using
 ## Installation (manual, automatic wizard coming soon)
 
 ### Dependencies
-- [Oh My Zsh](https://ohmyz.sh/) bash''' dddd '''
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [Caelestia](https://github.com/caelestia-dots/shell) (Hyprland recommended, other WMs may work)
-- [hyprland-infinitie-desktop-v2 ported to caelestia](https://github.com/xrompf-alt/hyprland-infinitie-desktop-v2.git) ported by me!
+- [Oh My Zsh](https://ohmyz.sh/) `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"` or `yay -S --noconfirm zsh-theme-powerlevel10k-git
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc `
+- [Caelestia](https://github.com/caelestia-dots/shell) (official Hyprland version recommended, other WMs may work) `paru -S caelestia-cli` and `caelestia install` 
+- [hyprland-infinitie-desktop-v2 ported to caelestia](https://github.com/xrompf-alt/hyprland-infinitie-desktop-v2.git) ported by me! (manual install from the repo only,sorry)
 
 ### Dotfiles
 
